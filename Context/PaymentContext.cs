@@ -7,6 +7,7 @@ namespace SamanProject.Context
     {
         public PaymentContext()
         {
+
         }
         public DbSet<BankInfo> BankInfos { get; set; }
     }
